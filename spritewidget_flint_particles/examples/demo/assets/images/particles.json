@@ -1,0 +1,740 @@
+{
+  "frames": [
+    {
+      "filename": "particles/horizontal_line_glow_115x9",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 114,
+        "h": 9
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 0,
+        "w": 114,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 115,
+        "h": 9
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/line",
+      "frame": {
+        "x": 0,
+        "y": 9,
+        "w": 11,
+        "h": 114
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 17,
+        "y": 7,
+        "w": 11,
+        "h": 114
+      },
+      "sourceSize": {
+        "w": 44,
+        "h": 128
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/firework",
+      "frame": {
+        "x": 11,
+        "y": 9,
+        "w": 60,
+        "h": 36
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 60,
+        "h": 36
+      },
+      "sourceSize": {
+        "w": 60,
+        "h": 36
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/radial_dot_64x64",
+      "frame": {
+        "x": 11,
+        "y": 45,
+        "w": 58,
+        "h": 58
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 2,
+        "w": 58,
+        "h": 58
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/smoke",
+      "frame": {
+        "x": 114,
+        "y": 0,
+        "w": 57,
+        "h": 57
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 4,
+        "w": 57,
+        "h": 57
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/star",
+      "frame": {
+        "x": 69,
+        "y": 57,
+        "w": 54,
+        "h": 51
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 5,
+        "w": 54,
+        "h": 51
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/fireball_42x15",
+      "frame": {
+        "x": 11,
+        "y": 108,
+        "w": 42,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 42,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 42,
+        "h": 15
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/confetti3",
+      "frame": {
+        "x": 71,
+        "y": 9,
+        "w": 30,
+        "h": 35
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 30,
+        "h": 35
+      },
+      "sourceSize": {
+        "w": 30,
+        "h": 35
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/circle32x32",
+      "frame": {
+        "x": 123,
+        "y": 57,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 30,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/star_glow_32x32",
+      "frame": {
+        "x": 123,
+        "y": 87,
+        "w": 29,
+        "h": 29
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 29,
+        "h": 29
+      },
+      "sourceSize": {
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/confetti2",
+      "frame": {
+        "x": 69,
+        "y": 45,
+        "w": 28,
+        "h": 10
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 28,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 28,
+        "h": 10
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/confetti6",
+      "frame": {
+        "x": 53,
+        "y": 116,
+        "w": 26,
+        "h": 6
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 26,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 26,
+        "h": 6
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/confetti5",
+      "frame": {
+        "x": 79,
+        "y": 108,
+        "w": 23,
+        "h": 14
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 23,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 23,
+        "h": 14
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/confetti4",
+      "frame": {
+        "x": 0,
+        "y": 123,
+        "w": 22,
+        "h": 13
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 0,
+        "w": 22,
+        "h": 13
+      },
+      "sourceSize": {
+        "w": 23,
+        "h": 13
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/confetti1",
+      "frame": {
+        "x": 102,
+        "y": 108,
+        "w": 21,
+        "h": 16
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 21,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 21,
+        "h": 16
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/white_glow_ball_16x16",
+      "frame": {
+        "x": 153,
+        "y": 57,
+        "w": 16,
+        "h": 16
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 16
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/green_glow_ball_16x16",
+      "frame": {
+        "x": 153,
+        "y": 73,
+        "w": 16,
+        "h": 16
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 16
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/red_glow_ball_16x16",
+      "frame": {
+        "x": 152,
+        "y": 89,
+        "w": 16,
+        "h": 16
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 16
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/fire_blob2",
+      "frame": {
+        "x": 53,
+        "y": 103,
+        "w": 15,
+        "h": 6
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 15,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 8
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/bird",
+      "frame": {
+        "x": 123,
+        "y": 116,
+        "w": 5,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 16
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/fire_blob",
+      "frame": {
+        "x": 53,
+        "y": 109,
+        "w": 14,
+        "h": 6
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 6
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/horizontal_line_12px_glow",
+      "frame": {
+        "x": 67,
+        "y": 109,
+        "w": 12,
+        "h": 7
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 12,
+        "h": 7
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/dot_with_sparkles",
+      "frame": {
+        "x": 22,
+        "y": 124,
+        "w": 8,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 8,
+        "h": 8
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/red_glow_flare_8x8",
+      "frame": {
+        "x": 30,
+        "y": 124,
+        "w": 8,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 8,
+        "h": 8
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/ellipse8x4",
+      "frame": {
+        "x": 22,
+        "y": 132,
+        "w": 8,
+        "h": 4
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 8,
+        "h": 4
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/small_glow_disc_6x6",
+      "frame": {
+        "x": 11,
+        "y": 103,
+        "w": 5,
+        "h": 5
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/radial_dot_4x4",
+      "frame": {
+        "x": 30,
+        "y": 132,
+        "w": 4,
+        "h": 4
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/dot4x4",
+      "frame": {
+        "x": 34,
+        "y": 132,
+        "w": 4,
+        "h": 4
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "particles/1pixel",
+      "frame": {
+        "x": 71,
+        "y": 44,
+        "w": 1,
+        "h": 1
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 1,
+        "h": 1
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  ],
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.3",
+    "image": "particles.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 171,
+      "h": 136
+    },
+    "scale": 1
+  }
+}

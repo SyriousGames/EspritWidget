@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "version": "0.6.3"
+  },
+  "savePath": "/home/dsyrstad/IdeaProjects/spritewidget_flint_particles/examples/demo/assets/images",
+  "images": [],
+  "folders": [
+    "/home/dsyrstad/IdeaProjects/spritewidget_flint_particles/examples/demo/assets-raw/particles"
+  ],
+  "packOptions": {
+    "textureName": "particles",
+    "textureFormat": "png",
+    "removeFileExtension": true,
+    "prependFolderName": true,
+    "base64Export": false,
+    "tinify": false,
+    "tinifyKey": "",
+    "scale": 1,
+    "filter": "none",
+    "exporter": "JSON (array)",
+    "fileName": "pack-result",
+    "savePath": "/home/dsyrstad/IdeaProjects/spritewidget_flint_particles/examples/demo/assets/images",
+    "width": 2048,
+    "height": 2048,
+    "fixedSize": false,
+    "powerOfTwo": false,
+    "padding": 0,
+    "extrude": 0,
+    "allowRotation": false,
+    "allowTrim": true,
+    "trimMode": "trim",
+    "alphaThreshold": "0",
+    "detectIdentical": true,
+    "packer": "OptimalPacker",
+    "packerMethod": "Automatic"
+  }
+}

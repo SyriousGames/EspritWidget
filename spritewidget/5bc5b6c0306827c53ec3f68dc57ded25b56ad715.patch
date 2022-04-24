@@ -1,0 +1,56 @@
+From 5bc5b6c0306827c53ec3f68dc57ded25b56ad715 Mon Sep 17 00:00:00 2001
+From: Viktor Lidholt <viktorlidholt@gmail.com>
+Date: Sun, 19 Jan 2020 18:15:12 +0100
+Subject: [PATCH] Fixes EffectLine
+
+---
+ lib/spritewidget.dart      | 2 +-
+ lib/src/spritesheet.dart   | 1 +
+ lib/src/textured_line.dart | 9 +++++++--
+ 3 files changed, 9 insertions(+), 3 deletions(-)
+
+diff --git a/lib/spritewidget.dart b/lib/spritewidget.dart
+index 3d47041..83d1aec 100644
+--- a/lib/spritewidget.dart
++++ b/lib/spritewidget.dart
+@@ -9,7 +9,7 @@ import 'dart:async';
+ import 'dart:convert';
+ import 'dart:math' as math;
+ import 'dart:typed_data';
+-import 'dart:ui' as ui show Image;
++import 'dart:ui' as ui show Image, Vertices;
+ 
+ import 'package:flutter/gestures.dart';
+ import 'package:flutter/rendering.dart';
+diff --git a/lib/src/spritesheet.dart b/lib/src/spritesheet.dart
+index 85ab15e..3bb1e77 100644
+--- a/lib/src/spritesheet.dart
++++ b/lib/src/spritesheet.dart
+@@ -14,6 +14,7 @@ class SpriteSheet {
+ 
+   ui.Image _image;
+   Map<String, SpriteTexture> _textures = new Map<String, SpriteTexture>();
++  Map<String, SpriteTexture> get textures => _textures;
+ 
+   /// Creates a new sprite sheet from an [_image] and a sprite sheet [jsonDefinition].
+   ///
+diff --git a/lib/src/textured_line.dart b/lib/src/textured_line.dart
+index e38e494..ff64a2c 100644
+--- a/lib/src/textured_line.dart
++++ b/lib/src/textured_line.dart
+@@ -199,8 +199,13 @@ class TexturedLinePainter {
+       lastMiter = currentMiter;
+     }
+ 
+-    //TODO: Fix
+-//    canvas.drawVertices(VertexMode.triangles, vertices, textureCoordinates, verticeColors, BlendMode.modulate, indices, _cachedPaint);
++    var vertexObject = ui.Vertices(
++      VertexMode.triangleStrip,
++      vertices,
++      textureCoordinates: textureCoordinates,
++      colors: verticeColors,
++    );
++    canvas.drawVertices(vertexObject, BlendMode.modulate, _cachedPaint);
+   }
+ 
+   double _xPosForStop(double stop) {

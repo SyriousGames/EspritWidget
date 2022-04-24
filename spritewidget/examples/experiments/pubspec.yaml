@@ -1,0 +1,34 @@
+name: experiments
+description: A playground for spritewidget experiments.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  spritewidget:
+    path: ../../
+  logging: ^1.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  mockito:
+
+flutter:
+  uses-material-design: true
+  assets:
+    - sun.png
+    - ghostscript_tiger.svg
+    - bob_minion.flr
+    - penguin.flr
+    - spark.png
+    - lightning.png
+    - avatar_male_1.svg
+    - fw_glossy_button.png
+    - assets/audio/

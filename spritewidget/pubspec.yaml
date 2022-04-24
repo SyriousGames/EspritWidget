@@ -1,0 +1,26 @@
+name: spritewidget
+description: SpriteWidget is an open source toolkit for building complex, high performance animations and 2D games with Flutter.
+version: 0.9.23
+author: Viktor Lidholt <viktorlidholt@gmail.com>, Dan Syrstad <dan@syriousgames.com>
+homepage: https://syriousgames.com/
+repository: https://github.com/SyriousGames/EspritWidget
+issue_tracker: https://github.com/SyriousGames/EspritWidget/issues
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  logger: ^1.1.0
+  lottie: ^1.3.0
+  flutter_svg: ^1.0.3
+#  soundpool: ^1.1.3 waiting for null safety
+#  audioplayers:
+#    path: ../dsyrstad_audioplayers
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
